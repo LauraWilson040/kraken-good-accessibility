@@ -25,6 +25,7 @@ img {
 
 header {
   background-image: url("../images/anchors.svg");
+  background-color: #1e7c74;
   color: #fff;
   font-size: 1.125rem;
   font-style: normal;
@@ -94,6 +95,11 @@ nav a {
 nav a:hover,
 nav a:focus {
   background-color: #1e7c74;
+}
+
+nav a:focus {
+  outline: .2rem solid #000;
+  outline-offset: .1rem;
 }
 
 .icon {
