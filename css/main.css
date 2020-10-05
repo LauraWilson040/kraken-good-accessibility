@@ -57,6 +57,11 @@ article header {
   color: #fff;
 }
 
+h1,
+h2 {
+  background-color: #1e7c74;
+}
+
 h1 {
   margin: 0;
   color: #fff;
@@ -95,9 +100,6 @@ nav a {
 nav a:hover,
 nav a:focus {
   background-color: #1e7c74;
-}
-
-nav a:focus {
   outline: .2rem solid #000;
   outline-offset: .1rem;
 }
@@ -162,5 +164,6 @@ footer {
   justify-content: center;
   padding: 1rem;
   background-image: url("../images/anchors.svg");
+  background-color: #1e7c74;
   color: #fff;
 }
