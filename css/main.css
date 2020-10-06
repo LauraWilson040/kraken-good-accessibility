@@ -30,13 +30,15 @@ header {
   font-size: 1.125rem;
   font-style: normal;
   font-weight: normal;
-  padding: 1rem;
+  padding-top: 1rem;
 }
 
 header strong,
 header p {
   margin: 0;
   font-weight: normal;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
 }
 
 .by {
@@ -58,8 +60,10 @@ article header {
 }
 
 h1,
-h2 {
-  background-color: #1e7c74;
+h2,
+nav {
+  background-color: #259f95;
+  padding-left: 1rem;
 }
 
 h1 {
@@ -67,6 +71,7 @@ h1 {
   color: #fff;
   font-weight: normal;
   font-size: 1.125rem;
+  padding-top: 1rem;
 }
 
 h2 {
@@ -106,6 +111,7 @@ nav a:focus {
 
 .icon {
   position: relative;
+  z-index: 1;
 }
 
 .icon svg {
