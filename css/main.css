@@ -87,6 +87,8 @@ nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
 }
 
 nav a {
@@ -108,7 +110,7 @@ nav a:hover {
 
 nav a:focus {
   background-color: #1e7c74;
-  outline: .2rem solid #000;
+  outline: .125rem solid #000;
   outline-offset: .1rem;
 }
 
