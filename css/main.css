@@ -64,7 +64,6 @@ h1,
 h2,
 nav {
   background-color: #259f95;
-  padding-left: 1rem;
 }
 
 h1 {
@@ -72,7 +71,6 @@ h1 {
   color: #fff;
   font-weight: normal;
   font-size: 1.125rem;
-  padding-top: 1rem;
 }
 
 h2 {
@@ -80,6 +78,7 @@ h2 {
   color: #fff;
   font-weight: normal;
   font-size: 1.75rem;
+  padding-bottom: 1rem;
 }
 
 nav ul {
@@ -140,6 +139,10 @@ article div :first-child {
   text-indent: 0;
 }
 
+div:nth-child(1) {
+  text-indent: 0;
+}
+
 article div :first-child::first-line {
   color: #1e7c74;
   font-style: italic;
@@ -153,14 +156,12 @@ figure img {
   border: 1px solid #259f95;
   border-radius: 6px;
   margin-bottom: 1.5rem;
-  padding-top: 0;
 }
 
 figcaption {
   padding: 0 1rem;
   font-style: italic;
   text-align: center;
-  padding-bottom: 0;
 }
 
 article footer {
