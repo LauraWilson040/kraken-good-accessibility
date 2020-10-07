@@ -46,7 +46,8 @@ header p {
 }
 
 article div {
-  padding: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 article header {
@@ -102,7 +103,10 @@ nav a {
   height: 2.5rem;
 }
 
-nav a:hover,
+nav a:hover {
+  background-color: #1e7c74;
+}
+
 nav a:focus {
   background-color: #1e7c74;
   outline: .2rem solid #000;
@@ -111,7 +115,6 @@ nav a:focus {
 
 .icon {
   position: relative;
-  z-index: 1;
 }
 
 .icon svg {
@@ -150,12 +153,14 @@ figure img {
   border: 1px solid #259f95;
   border-radius: 6px;
   margin-bottom: 1.5rem;
+  padding-top: 0;
 }
 
 figcaption {
   padding: 0 1rem;
   font-style: italic;
   text-align: center;
+  padding-bottom: 0;
 }
 
 article footer {
