@@ -50,6 +50,10 @@ article div {
   padding-right: 1rem;
 }
 
+.start {
+  padding-top: 1rem;
+}
+
 article header {
   display: flex;
   justify-content: space-between;
@@ -138,10 +142,6 @@ article p {
 }
 
 article div :first-child {
-  text-indent: 0;
-}
-
-div:nth-child(1) {
   text-indent: 0;
 }
 
