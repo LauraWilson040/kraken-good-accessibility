@@ -154,6 +154,11 @@ figure {
   margin: 1.5rem 0;
 }
 
+.krakenimg {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 figure img {
   border: 1px solid #259f95;
   border-radius: 6px;
